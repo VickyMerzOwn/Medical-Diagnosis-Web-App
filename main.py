@@ -119,7 +119,7 @@ try:
             inp[symptom_hasher[simp]] = 1
 
         x = predict_disease(inp)[0]
-        st.write(f'The predicted Disease is: {x}')
+        st.write(f'You most probably have {x}.')
 
         message = ""
 
